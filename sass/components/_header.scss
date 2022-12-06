@@ -12,6 +12,7 @@
   @media screen and (min-width:1200px) {
     justify-content: start;
     align-items: center;
+    justify-content: space-between;
   }
 }
 .header {
@@ -29,14 +30,20 @@
     justify-content: space-between;
   }
 }
-
+.nav-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
 .header-nav {
   display: flex;
 }
 .header-nav__list {
   display: flex;
   justify-content: space-between;
-
+  @media screen and (min-width: 768px) {
+    padding-left: 93px;
+  }
   @media screen and (min-width:1200px) {
     padding-left: 93px;
     list-style: none;
@@ -93,9 +100,10 @@
     display: none;
   }
   @media screen and (min-width:1200px) {
+    align-self: end;
     flex-direction: row;
     padding-top: 7px;
-    margin-left: 313px;
+    margin-left: 0px;
   }
 
 }
