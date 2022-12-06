@@ -18,6 +18,7 @@
   </svg>
   <header class="header">
     <div class="container header-container">
+      <div class="nav-container">
       <a href="./index.html" class="header-logo"><span class="logo">Web</span>Studio</a>
       <nav class="header-nav">
         <ul class="header-nav__list">
@@ -26,6 +27,7 @@
           <li class="header-nav__item"><a href="/contacts">Контакти</a></li>
         </ul>
       </nav>
+    </div>
       <ul class="header-contacts">
           <li class="header-contacts__item">
             <a href="mailto:info@devstudio.com" class="header-contacts__link">
@@ -62,8 +64,8 @@
             </svg> 
         </button>
         <ul class="mobile-menu">
-          <li class="mobile-menu_item"><a href="" class="link">Studio</a></li>
-          <li class="mobile-menu_item"><a href="" class="link">Portfolio</a></li>
+          <li class="mobile-menu_item"><a href="./index.html" class="link">Studio</a></li>
+          <li class="mobile-menu_item"><a href="./portfolio.html" class="link">Portfolio</a></li>
           <li class="mobile-menu_item"><a href="" class="link">Contacts</a></li>
         </ul>
         <div>
@@ -156,7 +158,11 @@
         <h2 class="section__heading">Наша Команда</h2>
         <ul class="squad__team">
           <li class="squad__team-card">
-            <img src="images/img_igor_x2.jpg" alt="Ігор Дем'яненко" class="squad_team-card__img">
+            <img 
+            srcset="images/img_igor.jpg x1, images/img_igor_x2.jpg x2"
+            src="images/img_igor.jpg" 
+            alt="Ігор Дем'яненко" 
+            class="squad_team-card__img">
             <h3 class="squad__team-card__heading">Ігор Дем'яненко</h3>
             <p class="squad__team-card__position">Product Designer</p>
             <div class="social-list">
@@ -183,7 +189,11 @@
             </div>
           </li>
           <li class="squad__team-card">
-            <img src="images/img_olga_x2.jpg" alt="Ольга Рєпіна"  class="squad_team-card__img">
+            <img 
+            srcset="images/img_olga.jpg x1, images/img_olga_x2.jpg x2"
+            src="images/img_olga.jpg" 
+            alt="Ольга Рєпіна"  
+            class="squad_team-card__img">
             <h3 class="squad__team-card__heading">Ольга Рєпіна</h3>
             <p class="squad__team-card__position">Frontend Developer</p>
             <div class="social-list">
@@ -210,7 +220,11 @@
             </div>
           </li>
           <li class="squad__team-card">
-            <img src="images/img_mykola_x2.jpg" alt="Микола Тарасов"  class="squad_team-card__img">
+            <img 
+            srcset="images/img_mykola.jpg x1, images/img_mykola_x2.jpg x2"
+            src="images/img_mykola.jpg" 
+            alt="Микола Тарасов"  
+            class="squad_team-card__img">
             <h3 class="squad__team-card__heading">Микола Тарасов</h3>
             <p class="squad__team-card__position">Marketing</p>
             <div class="social-list">
@@ -237,7 +251,11 @@
             </div>
           </li>
           <li class="squad__team-card">
-            <img src="images/img_myhaylo_x2.jpg" alt="Михайло Єрмаков" class="squad_team-card__img">
+            <img 
+            srcset="images/img_myhaylo.jpg x1, images/img_myhaylo_x2.jpg x2" 
+            src="images/img_myhaylo.jpg"
+            alt="Михайло Єрмаков" 
+            class="squad_team-card__img">
             <h3 class="squad__team-card__heading">Михайло Єрмаков</h3>
             <p class="squad__team-card__position">UI Designer</p>
             <div class="social-list">
